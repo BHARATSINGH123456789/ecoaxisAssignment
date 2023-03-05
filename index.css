@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  margin: 8rem;
+  height: 25rem;
+  border: 1px solid rgb(109, 103, 103);
+}
+.container h3 {
+  text-align: center;
+}
+.timeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  padding: 1rem;
+}
+.shift1,
+.shift2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+.shift1 {
+  background-color: rgb(234, 226, 226);
+  align-items: flex-end;
+  padding-left: 1rem;
+}
+
+.shift2 {
+  background-color: rgb(210, 205, 205);
+  padding-right: 1rem;
+}
+.shift1 h3,
+.shift2 h3 {
+  align-self: center;
+  margin: 2rem 0;
+}
+
+.area {
+  display: flex;
+}
+
+.grandChild :hover {
+  display: block;
+  color: yellowgreen;
+  background-color: cadetblue;
+}
+.green {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding: 10px 0;
+  width: 150px;
+  font-size: 1.2rem;
+  flex-direction: row;
+  margin: 0;
+  background-color: rgb(26, 199, 17);
+}
+
+.red {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  width: 150px;
+  flex-direction: row;
+  margin: 0;
+  background-color: rgb(218, 75, 75);
+}
+
+.red :hover {
+  color: white;
+}
